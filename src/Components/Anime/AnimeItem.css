@@ -1,0 +1,134 @@
+.parent-animeitemstyle{
+    background-color: #EDEDED;
+}
+
+.animeitemstyle{
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+}
+.animeitemstyle h1{
+    display: inline-block;
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+    cursor: pointer;
+    background: linear-gradient(to right, #A855F7,#24AE60);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    transition: all 0.4s ease-in-out;
+
+}
+.animeitemstyle h1:hover{
+    transform: skew(-3deg);
+
+}
+.animeitemstyle .title{
+   display: inline-block;
+   margin: 3rem 0;
+   font-size: 2rem;
+   cursor: pointer;
+   background: linear-gradient(to right, #A855F7 23%,#27AE60);
+   -webkit-text-fill-color: transparent;
+   -webkit-background-clip: text;
+   transition: all 0.4s ease-in-out;
+
+}
+.animeitemstyle .title:hover{
+    transform: skew(-3deg);
+}
+.animeitemstyle .description{
+    margin-top: 2rem;
+    color: #6c7983;
+    line-height: 1.7rem;
+    
+}
+.animeitemstyle .trailer-con{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.animeitemstyle .trailer-con iframe{
+    outline: none;
+    border: 5px solid #e5e7eb;
+    padding: 1.5rem;
+    border-radius: 10px;
+    background-color: #fff;
+    
+}
+.animeitemstyle .description button{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1.2rem;
+    color:#27AE60;
+    font-weight: 600;
+}
+.animeitemstyle .details{
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 2rem;
+    border: 5px solid #e5e7eb;
+}
+.animeitemstyle .details .detail{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.animeitemstyle .details .detail{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 80px;
+
+}
+.animeitemstyle .details .detail img{
+    border-radius: 7px;
+    max-width: 100%;
+}
+.animeitemstyle .details .detail .anime-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+}
+.animeitemstyle .details .detail .anime-details p{
+    display: flex;
+    gap: 1rem;
+}
+.animeitemstyle .details .detail .anime-details p span:first-child{
+    font-weight: 600;
+    color: #6c7983;
+}
+.animeitemstyle .characters{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px,1fr));
+    gap: 2rem;
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 20px;
+    border: 5px solid #e5e7eb;
+}
+.animeitemstyle .characters .character{
+    padding: 0.4rem 0.6rem;
+    border-radius: 7px;
+    background-color: #ededed;
+    transition: all 0.4s ease-in-out;
+}
+.animeitemstyle .characters .character img{
+    width: 100%;
+    
+}
+.animeitemstyle .characters .character h4{
+    padding: 0.5rem 0;
+    color: #454e56;
+}
+.animeitemstyle .characters .character p{
+    color: #27AE60;
+}
+.animeitemstyle .characters .character:hover{
+    transform: translateY(-5px);
+}
+
